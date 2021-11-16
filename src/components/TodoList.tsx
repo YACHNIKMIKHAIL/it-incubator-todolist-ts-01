@@ -28,7 +28,9 @@ export const TodoList = (props: TodoListPropsType) => {
                 <input type="text"/>
                 <button>+</button>
             </div>
-            <div>{tasksJSX}</div>
+            <div>
+                {tasksJSX}
+            </div>
             <div>
                 <button onClick={() => props.changeFilter('all')}>All</button>
                 <button onClick={() => props.changeFilter('active')}>Active</button>
